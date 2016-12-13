@@ -32,7 +32,7 @@ app.post("/books", (req, res, next) => {
         "author": req.body.author,
         "genre": req.body.genre,
         "read": req.body.read
-    },"*").then((date) =>  {
+    },"*").then((data) =>  {
         console.log("success!");
         res.json(data)
     })
